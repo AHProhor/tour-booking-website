@@ -1,0 +1,50 @@
+[
+  {
+    "key": 1,
+    "img": "",
+    "place": "Coxs Bazar",
+    "descripton": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repudiandae cum natus blanditiis necessitatibus suscipit autem laborum molestias aut excepturi rerum earum officiis deleniti perspiciatis, officia quisquam doloribus provident commodi!",
+    "person": 1,
+    "price": "3000tk"
+  },
+  {
+    "key": 2,
+    "img": "",
+    "place": "Bandarban",
+    "descripton": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repudiandae cum natus blanditiis necessitatibus suscipit autem laborum molestias aut excepturi rerum earum officiis deleniti perspiciatis, officia quisquam doloribus provident commodi!",
+    "person": 1,
+    "price": "2500tk"
+  },
+  {
+    "key": 3,
+    "img": "",
+    "place": "Sajek",
+    "descripton": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repudiandae cum natus blanditiis necessitatibus suscipit autem laborum molestias aut excepturi rerum earum officiis deleniti perspiciatis, officia quisquam doloribus provident commodi!",
+    "person": 1,
+    "price": "3500tk"
+  },
+  {
+    "key": 4,
+    "img": "",
+    "place": "Shylet",
+    "descripton": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repudiandae cum natus blanditiis necessitatibus suscipit autem laborum molestias aut excepturi rerum earum officiis deleniti perspiciatis, officia quisquam doloribus provident commodi!",
+    "person": 1,
+    "price": "2000tk"
+  },
+  {
+    "key": 5,
+    "img": "",
+    "place": "Nizumdip",
+    "descripton": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repudiandae cum natus blanditiis necessitatibus suscipit autem laborum molestias aut excepturi rerum earum officiis deleniti perspiciatis, officia quisquam doloribus provident commodi!",
+    "person": 1,
+    "price": "4000tk"
+  },
+  {
+    "key": 6,
+    "img": "",
+    "place": "Tanguar",
+    "descripton": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repudiandae cum natus blanditiis necessitatibus suscipit autem laborum molestias aut excepturi rerum earum officiis deleniti perspiciatis, officia quisquam doloribus provident commodi!",
+    "person": 1,
+    "price": "2000tk"
+  }
+]
