@@ -1,0 +1,16 @@
+.addedTourStyle form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addedTourStyle form input,
+textarea {
+  width: 50%;
+  height: 60px;
+  margin-top: 10px;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  color: rgb(12, 3, 0);
+  font-weight: 500;
+}

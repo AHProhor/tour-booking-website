@@ -7,7 +7,7 @@ const MainTours = () => {
 
 
    useEffect( ()=>{
-    fetch('pacakage.json')
+    fetch('http://localhost:5000/tours')
     .then(response => response.json())
     .then(data => setTours(data))
 },[])
