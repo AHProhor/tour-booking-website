@@ -1,0 +1,36 @@
+.bookingPageStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.orderDetailStyle {
+  border: 5px solid gray;
+  border-radius: 20px;
+  width: 100%;
+  margin: 50px;
+  padding: 10px;
+}
+.userInfoStyle {
+  border: 5px solid gray;
+  border-radius: 20px;
+  width: 100%;
+  margin: 50px;
+  padding: 10px;
+}
+
+.userInfoStyle form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userInfoStyle form input {
+  height: 60px;
+  width: 500px;
+  margin-top: 10px;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  color: rgb(12, 3, 0);
+  font-weight: 500;
+}

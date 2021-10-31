@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './MainTour.css';
 
 const MainTour = (props) => {
-    const {img,place,person,price,key} = props.sendTour;
+    const {img,place,person,price,_id} = props.sendTour;
     return (
         <div className="secificTourStyle mb-5 shadow-lg p-3 mb-5 bg-body ">
               <div className="">
@@ -17,7 +17,7 @@ const MainTour = (props) => {
                     <h4>Price: {price}</h4>
                     <Card.Text>
                     </Card.Text>
-                    <Link to={`/booking/${key}`}>
+                    <Link to={`/booking/${_id}`}>
                         <button type="button" className="btn btn-primary fw-bold ">Book Now</button>
                     </Link>
                 </Card.Body>

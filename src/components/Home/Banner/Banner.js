@@ -1,9 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import img1 from '../../../images/image1.jpg';
-import img2 from '../../../images/image2.jpg';
 import img3 from '../../../images/image3.jpg';
-import img4 from '../../../images/image4.jpg';
 import './Banner.css';
 
 const Banner = () => {
@@ -13,7 +11,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={img1}
+                    src="https://i.ibb.co/hXy2mGJ/Travel-and-tourism-poster-with-resort-and-sightseeing-symbols-flat-vector-illustration.jpg"
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -24,7 +22,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={img2}
+                    src={img1}
                     alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -46,7 +44,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={img4}
+                    src="https://i.ibb.co/b3KDRfF/Slow-Travel-930x360.jpg"
                     alt="Third slide"
                     />
                     <Carousel.Caption>
@@ -60,3 +58,4 @@ const Banner = () => {
 };
 
 export default Banner;
+
