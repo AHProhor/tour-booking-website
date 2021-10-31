@@ -1,8 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import img1 from '../../../images/image1.jpg';
-import img2 from '../../../images/image2.jpg';
-import img3 from '../../../images/image3.jpg';
 import './Pacakage.css';
 const Pacakage = () => {
     return (
@@ -13,35 +10,35 @@ const Pacakage = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={img1}
+                    src="https://i.ibb.co/mS86yfT/familyb.jpg"
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Tour For Family </h3>
+                    <p className="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laboriosam totam perferendis nulla assumenda at, sint nemo molestias autem doloremque?</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={img2}
+                    src="https://i.ibb.co/TBsNNCk/Using-Travel-Banners.jpg"
                     alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
+                    <h3>Honeymoon Pacakage</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={img3}
+                    src="https://i.ibb.co/fnrXJTT/kazakhstan-small-group-tour-banner.jpg"
                     alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3>Corporate Tour</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -52,3 +49,6 @@ const Pacakage = () => {
 };
 
 export default Pacakage;
+
+
+
