@@ -11,7 +11,7 @@ const Booking = () => {
     const {bookingId} = useParams();
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/tours/${bookingId}`)
+        fetch(`https://ghoulish-moonlight-60677.herokuapp.com/tours/${bookingId}`)
         .then(res => res.json())
         .then(data => setBookTour(data))
     },[])
@@ -19,7 +19,7 @@ const Booking = () => {
     
     const onSubmit = data =>{ 
         console.log(data);
-        axios.post('http://localhost:5000/orders',data)
+        axios.post('https://ghoulish-moonlight-60677.herokuapp.com/orders',data)
         .then(res =>{
             if(res.data.insertedId){
                 alert('Successfully added');

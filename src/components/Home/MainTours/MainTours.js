@@ -7,7 +7,7 @@ const MainTours = () => {
 
 
    useEffect( ()=>{
-    fetch('http://localhost:5000/tours')
+    fetch('https://ghoulish-moonlight-60677.herokuapp.com/tours')
     .then(response => response.json())
     .then(data => setTours(data))
 },[])

@@ -4,7 +4,7 @@ import OthersBooking from '../OthersBooking/OthersBooking';
 const OtherBookings = () => {
     const [orders, setOrders] = useState([]);
     useEffect( ()=>{
-        fetch('http://localhost:5000/orders')
+        fetch('https://ghoulish-moonlight-60677.herokuapp.com/orders')
         .then(response => response.json())
         .then(data => setOrders(data))
     },[])

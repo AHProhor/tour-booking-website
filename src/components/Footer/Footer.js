@@ -18,7 +18,7 @@ const Footer = () => {
                 <h6>Address:</h6>
                 <p>Ploat9, Road-17,Block-D ,Banani,Dhaka 1212</p>
                 <h5>Bangladesh</h5>
-                <a href="Google.com" className="text-danger">mediCare@gmail.com</a>
+                <a href="Google.com" className="text-danger">fodingtravel@gmail.com</a>
                 <h6>Emergency</h6>
                 <p>Phone:+8801478544621</p>
             </div>
